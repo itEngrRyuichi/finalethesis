@@ -1,0 +1,1378 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#add-item{
+    background-color: $secound-color;
+}
+
+.cke_contents{
+    color: $usual-text;
+}
+
+.alert{
+    padding: 20px;
+    text-align: center;
+}
+
+//navigation
+
+.navbar{
+    margin-bottom: 0;
+    background-color: $main-color !important;
+    .nav-item:hover, .nav-item:active, .nav-item:visited{
+        background-color: darken($navbar-default-bg, 6.5%) !important;
+    }
+    a{
+        color: $sub-color;
+    }
+
+    .fa{
+        font-size: 18px;
+        width: 20px;
+        margin: 0 8px 0 0;
+        color: $sub-color !important;
+    }
+
+    .navbar-text{
+        color: $sub-color;
+    }
+
+    .dropdown-menu{
+        background: lighten($main-color, 10%) !important;
+        font-size: 16px;
+        width: auto;
+        .dropdown-item{
+            text-decoration: none;
+            color: $sub-color !important;
+            .fa{
+                width: 20px;
+                margin-right: 15px;
+            }
+        }
+        .dropdown-item:hover{
+            background: $main-color !important;
+           color: $brand-warning !important;
+        }
+    }
+
+    
+    .navbar-right{
+        float: right;
+        .dropdown-menu{
+            position: absolute;
+            left: -135px;
+        }
+    }
+}
+
+.main{
+    min-height: 500px;
+    background-color: darken($main-color, 5%);
+}
+
+//---------- home ----------
+.showcase{
+    padding: 30px 0;
+    color: $usual-text;
+    height: 550px;
+    background-image: url('images/bgbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    h2{
+        color: $usual-subtitle;
+        margin: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    p{
+        font-size: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .container{
+        background: lighten($main-color, 5%);
+        opacity: 0.85;
+        padding: 40px 30px 40px 30px;
+    }  
+}
+
+.section-a{
+    padding: 30px 0;
+    text-align: center;
+    color: $usual-text;
+
+    .fa{
+        font-size: 60px;
+    }
+}
+
+//---------- account ----------
+.account-showcase{
+    padding: 50px;
+    .card{
+        border: solid 1px $main-color;
+        background-color: $usual-background;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        max-height: 600px; 
+        min-width: 400px;
+        .card-title{
+            color: $usual-title;
+        }
+        .card-subtitle{
+            color: $usual-subtitle;
+        }
+        .card-text{
+            padding-left: 20px;
+            text-decoration: none;
+            color: $usual-text;
+        }
+        a:hover{
+            color: $secound-color;
+        }
+        label{
+            color: $secound-color;
+        }
+        img{
+            width: 100%;
+            height: 600px;
+        }
+        .btn{
+            float: right;
+            margin-right: 50px;
+        }
+        .btn:hover{
+            color: lighten($main-color, 70%);
+        }
+    }
+}
+
+.acclis-showcase{
+    .container{
+        padding: 20px 0 20px 0;
+        .sticky{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+        }
+        .title{
+            text-align: center;
+            color: $usual-title;
+            background-color: $main-color;
+            padding:10px;
+            margin: 0;
+            text-decoration: none;
+        }
+        .text{
+            color: $usual-title;
+            text-align: end;
+        }
+        .text:hover{
+            color: $secound-color;
+        }
+        .card{
+            border: solid 1px $main-color;
+            background-color: $main-color;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            height: auto;
+            img{
+                height: 250px;
+                width: 100%;
+            }
+            .card-title{
+                height: 10px;
+                text-align: center;
+                color: $usual-title;
+                margin: -8px 0 5px 0;
+            }
+            .card-subtitle{
+                height: 8px;
+                color: $secound-color;
+                margin: 10px 0 20px 0;
+            }
+            .form-group{
+                padding: 25px 50px 25px 50px;
+            }
+            .card-text, label{
+                color: $usual-text;
+                text-decoration: none;
+            }
+            .card-footer{
+                background-color: $main-color;
+                padding:10px;
+                margin: 0;
+            }
+        }
+
+        form{
+            background-color: $usual-background !important;
+            label{
+                color: $secound-color !important;
+            }
+            input, select{
+                background-color: lighten($main-color, 70%) !important;
+            }
+            input:hover, select:hover{
+                border: solid 1px $secound-color !important;
+            }
+            .btn{
+                margin: 0px !important;
+            }
+            .form-group{
+                padding: 18px !important;
+            }
+            hr{
+                border: solid 1px $secound-color !important;
+                margin: 0 20px !important;
+            }
+            .text{
+                color: $usual-text !important;
+                margin: 10px !important;
+            }
+        }
+        .table{
+            background-color: $usual-background;
+            border: solid $main-color;
+            thead th{
+                background-color: $main-color;
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0px;
+                z-index: 1;
+            }
+            #secound-thead{
+                position: -webkit-sticky;
+                position: sticky;
+                top: 48px;
+                z-index: 1;
+                border-top: 1px solid $main-color;
+            }
+            .table-title{
+                text-align: center;
+            }
+            th{
+                color: $secound-color;
+                border-bottom: solid 1px darken($main-color, 5%);
+            }
+            td{
+                border-bottom: solid 1px darken($main-color, 5%);
+            }
+            td, a{
+                color: lighten($main-color, 70%);
+                text-decoration: none;
+            }
+            a:hover{
+                color: lighten($main-color, 50%);
+            }
+            form{
+                background-color: $usual-background !important;
+                label{
+                    color: $secound-color !important;
+                }
+                input, select{
+                    background-color: lighten($main-color, 70%) !important;
+                }
+                input:hover, select:hover{
+                    border: solid 1px $secound-color !important;
+                }
+                .btn{
+                    margin: 0px !important;
+                }
+                .form-group{
+                    padding: 18px !important;
+                }
+                hr{
+                    border: solid 1px $secound-color !important;
+                    margin: 0 20px !important;
+                }
+                .text{
+                    color: $usual-text !important;
+                    margin: 10px !important;
+                }
+            }
+        }
+    }
+}
+
+.subj-showcase{
+    padding: 40px 0 40px 0;
+    .card{
+        border: solid 1px $main-color;
+        background-color: $usual-background;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 100%;
+        margin: 10px -8px 10px -8px;
+        .card-title{
+            font-size: 20px;
+            color: $usual-title;
+            text-decoration: none;
+        }
+        a:hover{
+            color: $secound-color;
+        }
+        .card-subtitle{
+            color: $usual-subtitle;
+        }
+        .card-text{
+            text-decoration: none;
+            color: $usual-text;
+        }
+        label{
+            color: $secound-color;
+        }
+        img{
+            width: 100%;
+            height: 250px;
+        }
+    }
+}
+
+//---------- class ----------
+
+.catalog-showcase{
+    padding: 30px 0 30px 0;
+    .container{
+        padding: 20px 0 20px 0;
+        .sticky{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+        }
+        .title{
+            text-align: center;
+            color: $usual-title;
+            background-color: $main-color;
+            padding:10px;
+            margin: 0;
+            text-decoration: none;
+        }
+        .card{
+            border: solid 1px $main-color;
+            background-color: $main-color;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            max-height: 500px;
+            img{
+                height: 250px;
+                width: 100%;
+            }
+            .card-title{
+                height: 10px;
+                text-align: center;
+                color: $usual-title;
+                margin: -8px 0 5px 0;
+            }
+            .form-group{
+                padding: 25px 50px 25px 50px;
+            }
+            .card-text, label{
+                color: $usual-text;
+                text-decoration: none;
+            }
+            .card-footer{
+                background-color: $main-color;
+                padding:10px;
+                margin: 0;
+            }
+        }
+
+        form{
+            background-color: $usual-background;
+            label{
+                color: $secound-color;
+            }
+            input, select{
+                background-color: lighten($main-color, 70%);
+            }
+            input:hover, select:hover{
+                border: solid 1px $secound-color;
+            }
+            .btn{
+                margin: 0px;
+            }
+            .form-group{
+                padding: 18px;
+            }
+            hr{
+                border: solid 1px $secound-color;
+                margin: 0 20px;
+            }
+            .text{
+                color: $usual-text;
+                margin: 10px;
+            }
+        }
+
+        .table{
+            background-color: $usual-background;
+            border: solid darken($main-color, 5%);
+            thead{
+                background-color: $main-color;
+            }
+            .sticky-head{
+                background-color: $main-color;
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0px;
+                z-index: 1;
+            }
+            th{
+                color: $secound-color;
+                border-bottom: solid 1px darken($main-color, 5%);
+            }
+            td{
+                border-bottom: solid 1px darken($main-color, 5%);
+            }
+            td, a{
+                color: lighten($main-color, 70%);
+                text-decoration: none;
+            }
+            a:hover{
+                color: lighten($main-color, 50%);
+            }
+        }
+    }
+}
+
+.class-showcase{
+    .sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+    }
+    .class-container{
+        background-color: $usual-background;
+        min-height:280px;
+        max-height:280px;
+        img{
+            height: 100px;
+            width: 100%;
+        }
+        .title{
+            color: $usual-title;
+            background-color: $main-color;
+            padding:10px;
+            margin: 0;
+            text-decoration: none;
+        }
+        .subtitle{
+            font-size: 12px;
+            color: $usual-subtitle;
+            padding: 10px;
+        }
+        .text{
+            text-decoration: none;
+            color: $usual-text;
+            padding: 0 10px;
+        }
+    }
+    .class-nav{
+        min-height: 400px;
+        padding: 50px 0 50px;
+        background-color: $usual-background;
+        a{
+            color: $sub-color;
+            .fa{
+                width: 8px;
+                margin: 0 15px 0 0;
+            }
+        }
+        a:hover, a:active, a:visited{
+            background-color: darken($main-color, 5%) !important;
+        }
+    }
+    .class-main{
+        .class-title{
+            color: $usual-text;
+            font-size: 18px;
+            padding: 8px 0 8px 0;
+            margin: 0;
+        }
+        .class-subtitle{
+            padding: 8px 0 8px 0;
+            color: $usual-text2;
+        }
+        //Lesson
+        .lesson-list{
+            .card{
+                background-color: $usual-background;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                min-height:160px;
+                max-height:160px;
+                #plus{
+                    color: darken($main-color, 5%);
+                    font-size: 160px;
+                    width: 100%;
+                    text-align: center;
+                    background-color: darken($secound-color, 10%);
+                }
+                img{
+                    height: 160px;
+                    width: 100%;
+                }
+                .card-body{
+                    .card-title{
+                        color: $usual-title;
+                        margin: 5px 0 5px 0;
+                        text-decoration: none;
+                    }
+                    a.card-title:hover{
+                        color:$main-color;
+                    }
+                    .card-subtitle{
+                        color: $usual-subtitle;
+                        margin: 5px 0 5px 0;
+                    }
+                    .btn-group{
+                        position: absolute;
+                        right: 25px;
+                        bottom: 10px;
+                    }
+                    label{
+                        color: $secound-color;
+                    }
+                }
+            }
+        }
+        .lesson-criteria{
+            .criteria-nav{
+                margin: 20px 0 20px 0;
+                background-color: $usual-background;
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0px;
+                z-index: 1;
+                a{
+                    color: $usual-text2;
+                }
+                a:hover, a:active, a:visited{
+                    background-color: darken($main-color, 5%);
+                }
+            }
+            .table{
+                background-color: $usual-background;
+                thead th{
+                    text-align: center;
+                    background-color: $main-color;
+                }
+                th{
+                    color: $secound-color;
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);
+                }
+                .title th{
+                    font-size: 18px;
+                    text-align: right;
+                    background-color: darken($main-color, 5%);
+                    border: solid 1px darken($main-color, 5%);
+                    color: $usual-text;
+                }
+                tbody th, td{
+                    text-align: right;
+                    border-bottom: solid 1px darken($main-color, 5%);
+                    border-right: solid 1px $main-color;
+                }
+                td, a{
+                    color: lighten($main-color, 70%);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: lighten($main-color, 50%);
+                }
+                .tr-total{
+                    background-color: lighten($usual-background, 10%);
+                }
+                .tr-ws{
+                    background-color: $secound-color;
+                }
+            }
+        }
+        //Lesson & Task detail
+        .detail-showcase{
+            .detail-content{
+                color: $usual-text;
+            }
+            .detailDesc-section{
+                color: $usual-text;
+                padding-bottom: 20px;
+            }
+            a{
+                margin-bottom: 20px; 
+            }
+            form{
+                margin: 40px 0 40px 0;
+                background-color: $usual-background;
+                .title{
+                    background-color: $main-color;
+                    text-align: center;
+                }
+                label{
+                    color: $secound-color;
+                }
+                input, select{
+                    background-color: lighten($main-color, 70%);
+                }
+                input:hover, select:hover{
+                    border: solid 1px $secound-color;
+                }
+                .btn{
+                    margin: 0px;
+                }
+                .form-group{
+                    padding: 18px;
+                }
+                .text{
+                    color: $usual-text;
+                    margin: 10px;
+                }
+            }
+            .table{
+                background-color: $usual-background;
+                thead th{
+                    text-align: center;
+                    background-color: $main-color;
+                }
+                th{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);
+                    color: $secound-color;
+                }
+                .title th{
+                    font-size: 18px;
+                    text-align: right;
+                    background-color: darken($main-color, 5%);
+                    color: $usual-text;
+                }
+                tbody th, td{
+                    text-align: right;
+                    border-right: solid 1px $main-color;
+                }
+                td{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);
+                }
+                td, a{
+                    color: lighten($main-color, 70%);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: lighten($main-color, 50%);
+                }
+                .red{
+                    background-color: $secound-color;
+                }
+            }
+        }
+        //task
+        .assessment-showcase{
+            .nav{
+                background-color: $usual-background;
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0px;
+                z-index: 1;
+                a{
+                    color: $usual-text2;
+                }
+                a:hover{
+                    background-color: darken($main-color, 5%);
+                }
+            }
+            .class-title{
+                text-align: center;
+                padding: 30px 0 30px 0;
+            }
+            .table{
+                background-color: $usual-background;
+                thead th{
+                    text-align: center;
+                    background-color: $main-color;
+                }
+                th{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);
+                    color: $secound-color;
+                }
+                .title th{
+                    font-size: 18px;
+                    text-align: right;
+                    background-color: darken($main-color, 5%);
+                    color: $usual-text;
+                }
+                tbody th, td{
+                    text-align: right;
+                    border-right: solid 1px $main-color;
+                }
+                td{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);
+                }
+                td, a{
+                    color: lighten($main-color, 70%);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: lighten($main-color, 50%);
+                }
+                .red{
+                    background-color: $secound-color;
+                }
+                .final{
+                    font-size: 20px;
+                    border: none;
+                    border-top: solid 3px darken($main-color, 5%);
+                    background-color: darken($secound-color, 10%);
+                }
+            }
+            form{
+                background-color: $usual-background;
+                padding: 0 30px 0 30px;
+                label{
+                    color: $secound-color;
+                }
+                input, select{
+                    background-color: lighten($main-color, 70%);
+                }
+                input:hover, select:hover{
+                    border: solid 1px $secound-color;
+                }
+                .btn{
+                    margin: 0px;
+                }
+                .form-group{
+                    padding: 18px;
+                }
+            }
+        }
+        //Resources
+        .classResource-showcase{
+            .table{
+                background-color: $usual-background;
+                thead th{
+                    text-align: center;
+                    background-color: $main-color;
+                }
+                th{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);
+                    color: $secound-color;
+                }
+                tbody th, td{
+                    text-align: right;
+                }
+                td{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);
+                }
+                td, a{
+                    color: lighten($main-color, 70%);
+                    text-decoration: none;
+                    .fa{
+                        font-size: 25px;
+                        width: 25px;
+                        padding: 0 15px 0 0;
+                    }
+                }
+                td:nth-child(2){
+                    text-align: left;
+                }
+                a:hover{
+                    color: lighten($main-color, 50%);
+                }
+            }
+            form{
+                background-color: $usual-background;
+                label{
+                    color: $secound-color;
+                }
+                input, select{
+                    background-color: lighten($main-color, 70%);
+                }
+                input:hover, select:hover{
+                    border: solid 1px $secound-color;
+                }
+                .btn{
+                    margin: 0px;
+                }
+                .form-group{
+                    padding: 18px;
+                }
+                .text{
+                    color: $usual-text;
+                    margin: 10px;
+                }
+            }   
+        }
+        //Classmate
+        .classmate{
+            .table{
+                background-color: $usual-background;
+                border: solid $main-color;
+                thead th{
+                    background-color: $main-color;
+                    position: -webkit-sticky;
+                    position: sticky;
+                    top: 0px;
+                    z-index: 1;
+                }
+                #secound-thead{
+                    position: -webkit-sticky;
+                    position: sticky;
+                    top: 48px;
+                    z-index: 1;
+                    border-top: 1px solid $main-color;
+                }
+                .table-title{
+                    text-align: center;
+                }
+                th{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);   
+                    color: $secound-color;
+                }
+                td{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);   
+                }
+                td, a{
+                    color: lighten($main-color, 70%);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: lighten($main-color, 50%);
+                }
+            }
+        }
+        //Accept Student
+        .accepEnroll-showcase{
+            padding: 30px 0 30px 0;
+            .table{
+                background-color: $usual-background;
+                border: solid $main-color;
+                thead th{
+                    background-color: $main-color;
+                    position: -webkit-sticky;
+                    position: sticky;
+                    top: 0px;
+                    z-index: 1;
+                }
+                th{
+                    color: $secound-color;
+                    border-bottom: solid 1px darken($main-color, 5%);
+                }
+                td{
+                    border-bottom: solid 1px darken($main-color, 5%);
+                }
+                td, a{
+                    color: lighten($main-color, 70%);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: lighten($main-color, 50%);
+                }
+            }
+        }
+        //Attendance
+        .attendance-showcase{
+            .sticky{
+                position: -webkit-sticky;
+                position: sticky;
+                top: 30px;
+            }
+            .table{
+                background-color: $usual-background;
+                thead th{
+                    text-align: center;
+                    background-color: $main-color;
+                }
+                th{
+                    color: $secound-color;
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);   
+                }
+                .title th{
+                    font-size: 18px;
+                    text-align: right;
+                    background-color: darken($main-color, 5%);
+                    color: $usual-text;
+                }
+                tbody th, td{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);   
+                    text-align: right;
+                    border-right: solid 1px $main-color;
+                }
+                td, a{
+                    color: lighten($main-color, 70%);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: lighten($main-color, 50%);
+                }
+                .tr-total{
+                    background-color: lighten($usual-background, 10%);
+                }
+                .tr-ws{
+                    background-color: $secound-color;
+                }
+            }
+        }
+        .classAll-showcase{
+            padding: 30px 0 30px 0;
+            .sticky{
+                position: -webkit-sticky;
+                position: sticky;
+                top: 30px;
+            }
+            form{
+                background-color: $usual-background;
+                label{
+                    color: $secound-color;
+                }
+                input{
+                    background-color: lighten($main-color, 70%);
+                }
+                input:hover, select:hover{
+                    border: solid 1px $secound-color;
+                }
+                .form-group{
+                    padding: 18px;
+                }
+            }
+            .table{
+                background-color: $usual-background;
+                thead th{
+                    text-align: center;
+                    background-color: $main-color;
+                }
+                th{
+                    color: $secound-color;
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);   
+                }
+                .title th{
+                    font-size: 18px;
+                    text-align: right;
+                    background-color: darken($main-color, 5%);
+                    color: $usual-text;
+                }
+                tbody th, td{
+                    border-top: solid 1px darken($main-color, 5%);
+                    border-bottom: solid 1px darken($main-color, 5%);   
+                    text-align: right;
+                    border-right: solid 1px $main-color;
+                }
+                td, a{
+                    color: lighten($main-color, 70%);
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}
+
+.enrollment-showcase{
+    padding: 20px 0 20px 0;
+    .sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+    }
+    .title{
+        text-align: center;
+        color: $usual-title;
+        background-color: $main-color;
+        padding:10px;
+        margin: 0;
+        text-decoration: none;
+    }
+    form{
+        background-color: $usual-background;
+        label{
+            color: $secound-color;
+        }
+        input, select{
+            background-color: lighten($main-color, 70%);
+        }
+        input:hover, select:hover{
+            border: solid 1px $secound-color;
+        }
+        .btn{
+            margin: 0px;
+        }
+        .form-group{
+            padding: 18px;
+        }
+        hr{
+            border: 1px solid $secound-color;
+        }
+    }
+    .table{
+        background-color: $usual-background;
+        border: solid darken($main-color, 5%);
+        thead th{
+            background-color: $main-color;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+        th{
+            color: $secound-color;
+            border-bottom: solid 1px darken($main-color, 5%);
+        }
+        td{
+            border-bottom: solid 1px darken($main-color, 5%);
+        }
+        td, a{
+            color: lighten($main-color, 70%);
+            text-decoration: none;
+        }
+        a:hover{
+            color: lighten($main-color, 50%);
+        }
+    }
+}
+
+.dashboard-showcase{
+    padding: 20px 0 20px 0;
+    .dashboard-nav{
+        border-bottom: 2px solid $usual-background;
+        margin: 0px -10px 0px -10px;
+        a{
+            color: $usual-text2 !important;
+            .fa, .fab{
+                width: 20px;
+                font-size: 20px;
+                margin: 0 5px 0 0;
+            }
+        }
+        a:hover{
+            color: darken($usual-text2, 10%) !important;
+        }
+        .active{
+            border-bottom: 5px solid $usual-background;
+        }
+    }
+    .subj-nav{
+        margin: 20px -10px 0px -10px;
+        background-color: $usual-background;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        a{
+            color: $usual-text2;
+        }
+        a:hover, a:active, a:visited{
+            background-color: darken($main-color, 5%);
+        }
+    }
+    .subj-section{
+        margin: 50px 0 50px 0;
+        form{
+            label{
+                color: $usual-text;
+            }
+        }
+        .title{
+            text-align: center;
+            background-color: darken($main-color, 5%);
+            color: $usual-title;
+            padding:10px;
+            margin: 10px -10px 10px -10px;
+            text-decoration: none;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 35px;
+            z-index: 1;
+        }
+        .card{
+            border: solid 1px $main-color;
+            background-color: $usual-background;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            height: 100%;
+            margin: 0 -10px 0 -10px;
+            .card-title{
+                font-size: 20px;
+                color: $usual-title;
+                text-decoration: none;
+                margin-top: 3px;
+            }
+            a:hover{
+                color: $secound-color;
+            }
+            .card-subtitle{
+                color: $usual-subtitle;
+                margin: 3px 0 3px 0;
+            }
+            .card-text{
+                text-decoration: none;
+                color: $usual-text;
+                margin-bottom: 3px;
+            }
+            img{
+                width: 100%;
+                height: 200px;
+            }
+            .btn{
+                margin: 10px;
+            }
+        }
+    }
+}
+
+//---------- resources ----------
+.quiz-showcase{
+    padding: 30px 0 30px 0;
+    .sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+    }
+    .title{
+        color: $usual-text;
+        font-size: 18px;
+        padding: 8px 0 8px 0;
+        margin: 0;
+        .fa{
+            width: 20px;
+            margin-right: 5px;
+        }
+    }
+    .text{
+        color: $usual-text2;
+    }
+    .table{
+        background-color: $usual-background;
+        text-align: center;
+        thead th{
+            text-align: center;
+            background-color: $main-color;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+        #secound-thead{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 45px;
+            z-index: 1;
+            border-top: 1px solid $main-color;
+        }
+        th{
+            border-top: solid 1px darken($main-color, 5%);
+            border-bottom: solid 1px darken($main-color, 5%);
+            color: $secound-color;
+        }
+        td{
+            border-top: solid 1px darken($main-color, 5%);
+            border-bottom: solid 1px darken($main-color, 5%);
+        }
+        td, a{
+            color: lighten($main-color, 70%);
+            text-decoration: none;
+            .fa{
+                font-size: 25px;
+                width: 25px;
+                padding: 0 15px 0 0;
+            }
+        }
+        td:nth-child(2){
+            text-align: left;
+        }
+        a:hover{
+            color: lighten($main-color, 50%);
+        }
+    }
+    form{
+        background-color: $usual-background;
+        .title{
+            background-color: $main-color;
+            text-align: center;
+        }
+        label{
+            color: $secound-color;
+        }
+        input, select{
+            background-color: lighten($main-color, 70%);
+        }
+        input:hover, select:hover{
+            border: solid 1px $secound-color;
+        }
+        .btn{
+            margin: 0px;
+        }
+        .form-group{
+            padding: 18px;
+        }
+        .text{
+            color: $usual-text;
+            margin: 10px;
+        }
+    }
+}
+
+.quizStorage-showcase{
+    padding: 20px 0 20px 0;
+    .sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+    }
+    .title{
+        text-align: center;
+        color: $usual-title;
+        background-color: $main-color;
+        padding:10px;
+        margin: 0;
+        text-decoration: none;
+    }
+    form{
+        background-color: $usual-background;
+        label{
+            color: $secound-color;
+        }
+        input, select{
+            background-color: lighten($main-color, 70%);
+        }
+        input:hover, select:hover{
+            border: solid 1px $secound-color;
+        }
+        .btn{
+            margin: 0px;
+        }
+        .form-group{
+            padding: 18px;
+        }
+        hr{
+            border: solid 1px $secound-color;
+            margin: 0 20px;
+        }
+        .text{
+            color: $usual-text;
+            margin: 10px;
+        }
+    }
+    .table{
+        background-color: $usual-background;
+        border: solid $main-color;
+        thead th{
+            background-color: $main-color;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+        #secound-thead{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 48px;
+            z-index: 1;
+            border-top: 1px solid $main-color;
+        }
+        .table-title{
+            text-align: center;
+        }
+        th{
+            color: $secound-color;
+            border-bottom: solid 1px darken($main-color, 5%);
+        }
+        td{
+            border-bottom: solid 1px darken($main-color, 5%);
+        }
+        td, a{
+            color: lighten($main-color, 70%);
+            text-decoration: none;
+        }
+        a:hover{
+            color: lighten($main-color, 50%);
+        }
+    }
+}
+
+.userResource-showcase{
+    .sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+    }
+    .title{
+        color: $usual-text;
+        font-size: 18px;
+        padding: 8px 0 8px 0;
+        margin: 0;
+    }
+    .subtitle{
+        padding: 8px 0 8px 0;
+        color: $usual-text2;
+    }
+    .table{
+        background-color: $usual-background;
+        thead th{
+            text-align: center;
+            background-color: $main-color;
+        }
+        th{
+            border-top: solid 1px darken($main-color, 5%);
+            border-bottom: solid 1px darken($main-color, 5%);
+            color: $secound-color;
+        }
+        tbody th, td{
+            text-align: right;
+        }
+        td{
+            border-top: solid 1px darken($main-color, 5%);
+            border-bottom: solid 1px darken($main-color, 5%);
+        }
+        td, a{
+            color: lighten($main-color, 70%);
+            text-decoration: none;
+            .fa{
+                font-size: 25px;
+                width: 25px;
+                padding: 0 15px 0 0;
+            }
+        }
+        td:nth-child(2){
+            text-align: left;
+        }
+        a:hover{
+            color: lighten($main-color, 50%);
+        }
+    }
+    form{
+        background-color: $usual-background;
+        label{
+            color: $secound-color;
+        }
+        input, select{
+            background-color: lighten($main-color, 70%);
+        }
+        input:hover, select:hover{
+            border: solid 1px $secound-color;
+        }
+        .btn{
+            margin: 0px;
+        }
+        .form-group{
+            padding: 18px;
+        }
+        .text{
+            color: $usual-text;
+            margin: 10px;
+        }
+    } 
+}
+
+//footer
+footer{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background: $main-color;
+    color: $sub-color;
+}

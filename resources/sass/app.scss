@@ -1,0 +1,23 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Shadows+Into+Light&display=swap');
+
+// Variables
+@import 'customVariables';
+
+// Bootstrap
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Icon
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims.scss';
+
+// Custom
+@import 'custom';

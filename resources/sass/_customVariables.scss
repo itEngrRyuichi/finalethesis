@@ -1,0 +1,125 @@
+
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+//custom
+$main-color: #192231;
+$sub-color: lighten($main-color, 60%);
+$secound-color: lighten(#985e6d, 5%);
+$third-color: #98878F;
+$forth-color: #494E6B;
+
+$usual-background: lighten($main-color, 10%);
+$usual-title: lighten($main-color, 70%);
+$usual-subtitle: $third-color;
+$usual-text: lighten($main-color, 60%);
+$usual-text2: lighten($main-color, 50%);
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:         $main-color !default; // #337ab7
+$brand-success:         #3be8b0!default;
+$brand-info:            #6a67ce !default;
+$brand-warning:         #ffb900 !default;
+$brand-danger:          #fc636b !default;
+
+.btn-primary{
+    color: ighten($main-color, 60%);
+    background-color: $brand-primary;
+    border: darken($brand-primary, 5%);
+}
+
+.btn-primary:hover{
+    background-color: darken($brand-primary, 10%);
+}
+
+.btn-success{
+    color: $main-color;
+    background-color: $brand-success;
+    border: darken($brand-success, 5%);
+}
+
+.btn-success:hover{
+    background-color: darken($brand-success, 10%);
+}
+
+.btn-info{
+    color: lighten($main-color, 70%);
+    background-color: $brand-info;
+    border: darken($brand-info, 5%);
+}
+
+.btn-info:hover{
+    background-color: darken($brand-info, 10%);
+}
+
+.btn-warning{
+    color: #fff;
+    background-color: $brand-warning;
+    border: darken($brand-warning, 5%);
+}
+
+.btn-warning:hover{
+    background-color: darken($brand-warning, 10%);
+}
+
+.btn-danger{
+    color: #fff;
+    background-color: $brand-danger;
+    border: darken($brand-danger, 5%);
+}
+
+.btn-danger:hover{
+    background-color: darken($brand-danger, 10%);
+}
+
+
+// Basics of a navbar
+$navbar-default-color:             #777 !default;
+$navbar-default-bg:                $main-color !default;
+$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+
+// Navbar links
+$navbar-default-link-color:                #fff !default;
+$navbar-default-link-hover-color:          #fff !default;
+$navbar-default-link-hover-bg:             darken($navbar-default-bg, 6.5%) !important;
+$navbar-default-link-active-color:         #fff !default;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-disabled-color:       #ccc !default;
+$navbar-default-link-disabled-bg:          transparent !default;
+
+// Navbar brand label
+$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
+$navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           #ddd !default;
+$navbar-default-toggle-icon-bar-bg:        #888 !default;
+$navbar-default-toggle-border-color:       #ddd !default;
