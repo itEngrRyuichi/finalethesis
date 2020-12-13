@@ -50,4 +50,43 @@ This study aims to create;
 -	A module that will provide the parents the current grades per grading period and number if absences of their children.
 -	A module that will create report generator as PDF to give the teacher of final grades of the students.
 
+### Theoretical Framework
+
+<img src="./Theoretical Framework Diagram.png">(Figure 1.0 Theoretical Framework Diagram)
+
+Figure 1.0 shows the diagram of the theoretical framework for the development of the Web Based Central Philippine University Senior High School Class Management System. This system shall be given quality assurance to ensure that there will be no inconsistency in maintaining the important factors by which the system is involved. Multiple software testing and further evaluations shall be accomplished and to determine that the objectives of this study will be implemented. Strict maintenance shall be imposed by doing necessary alterations if needed.
+
+**Input**. Input shows the features to be benefitted by all intended users of the system which are the Admin, Students, Teachers and Parents. Each user has their own set of features. Access on each feature shall be circumscribed depending on the user who tries to access it.
+
+**Process**. In order for input to be carried out, there is a process we should develop. In making a system, researchers should always conduct thorough research to collect the necessary data that are needed. Gathering these data is a major condition in this system. After analyzing these data, proper programming will be applied. During implementation, imposing strict maintenance shall be made for securing all data within the system.
+
+**Output**. This is the part where the system is fully operational and ready to be enforced when process is achieved.
+
+### Conceptual Framework
+
+<img src="./Conceptual Framework Diagram.png">(Figure 2.0 Conceptual Framework Diagram)
+
+**Hosting Server**. The hosting server is composed of the system to be implemented. It will be accessed by intended users via online.
+
+**Security**. This study includes security feature that provide a method of authentication. In this authentication system method, it allows the user to go through the login/logout services. It is a common method of authentication which allows only authorized users to access data, information, and control the functions of the system.
+
+**Users**. 	The users which are mainly composed of the Admin, Students, Teachers and Parents are the ones who are going to have the benefit to make use of the system to be implemented.
+RDBMS. RDBMS (Relational Database Management System) is structured in database tables, fields and records. Each RDBMS table consists of database table rows. Each database table row consists of one or more database table fields. RDBMS store the data into collection of tables, which might be related by common fields. RDBMS also provide relational operators to manipulate the data stored into the database tables.
+
+### Scope and Limitations
+
+The system to be developed is intended for Central Philippine University Senior High School. The purpose of the system is to provide an exclusive learning management system for the department. The system will be used by the teachers to give online quizzes and exams as well as making lesson plans and uploading downloading learning materials to provide the students on what to study. For the students on the other hand, they will be able to use the system in takin online quizzes and exams, viewing the lesson plans and downloading the learning materials that they need. The system allows the parents to view the current grades and the number of absences of their children. The Senior High School director who will be made as the admin can manage all accounts along with checking the user and activity logs.
+
+
+The system will only cover the subjects and area under the Senior High School department. The system can only be accessed with internet connection.
+
+### Significance of the Study
+
+The purpose of the system is to precisely monitor the performance of the students. The system can also give the parents an update of the current grading status and the number of absences made by their children. The class teacher can now view the final grades of students anytime.
+
+**Students**. Their activities, quizzes, assignments, grades and performance will be kept in an orderly and organized manner. They can take the advantage of conveniences by being able to submit their requirements on the given time. They may also be able to download the modules necessary for their subjects, as such, they wouldn’t have to spend time photocopying or printing. Instead, they can view these learning materials in their phone, computer or tablet.
+
+**Teachers**. It will be easy for them to handle the files of their students and their work will be much easy. It is also for the safety of their files because it will be done in a systematized manner and there will be back-up and security program.
+
+**Parents**. It is easy for them to know the performance of their children through this system.
 
