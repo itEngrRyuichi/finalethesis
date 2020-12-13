@@ -186,8 +186,69 @@ Private Resource. A system function that students use in uploading resource mate
 
 **Generate Online Quiz**. A system function used by the teachers when giving online quizzes to the students.
 
+### Physical Environment.  
+The tables below are the hardware and software specifications of the system.
 
-### Summary
+### Hardware Specification
+<img src="./Server-Side and Client-Side Hardware Specification Table.png">(Table 2.0 Server-Side and Client-Side Hardware Specification Table)
+
+The table shown above is the minimum system requirements for the server and client when running the system.
+
+### Software Specification
+<img src="./Software Specification Table.png">(Table 3.0 Software Specification Table)
+
+**Operating System: Windows 10 Home**
+Windows 10 is a Microsoft operating system for personal computers, tablets, embedded devices and internet of things devices. Microsoft released Windows 10 in July 2015 as a follow-up to Windows 8. The company has said it will update Windows 10 in perpetuity rather than release a new, full-fledged operating system as a successor.
+
+**Hyper Text Markup Language (HTML5)**
+Hyper Text Markup Language (HTML) is a markup language for creating a webpage. Webpages are usually viewed in a web browser. They can include writing, links, pictures, and even sound and video. HTML is used to mark and describe each of these kinds of content so the web browser can display them correctly. HTML can also be used to add meta information to a webpage. 
+
+**Cascading Style Sheets (CSS3)** 
+CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” While HTML is used to structure a web document (defining things like headlines and paragraphs, and allowing you to embed images, video, and other media), CSS comes through and specifies your document’s style—page layouts, colors, and fonts are all determined with CSS.
+
+**JavaScript (JS)**
+JavaScript (JS) is a scripting languages, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language. Thus, it doesn't need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion. This allowing the pages to react to events, exhibit special effects, accept variable text, validate data, create cookies, detect a user’s browser, etc.
+
+**jQuery**
+jQuery is a lightweight, "write less, do more", JavaScript library. The purpose of jQuery is to make it much easier to use JavaScript on your website. jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code. jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+**Bootstrap**
+Bootstrap is a free and open source front end development framework for the creation of websites and web apps. The Bootstrap framework is built on HTML, CSS, and JavaScript (JS) to facilitate the development of responsive, mobile-first sites and apps.
+
+**Syntactically Awesome Stylesheets (SASS)**
+Sass (which stands for Syntactically Awesome Style Sheets) is an extension to CSS. It doesn't really change what CSS can do, you won't suddenly be able to use Adobe Photoshop blend modes or anything-but it makes writing CSS a whole lot easier. Sass includes various features such as variables, nested rules, mixins, inline imports, built-in functions to manipulate color and other values, all with a fully CSS-compatible syntax.
+
+**Node.js**
+Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
+
+**VUE.js**
+Vue.js is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
+
+**NPM**
+NPM, short for Node Package Manager, is two things: first and foremost, it is an online repository for the publishing of open-source Node.js projects; second, it is a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management. A plethora of Node.js libraries and applications are published on npm, and many more are added every day.
+
+**Hypertext Processor (PHP7)**
+PHP is a server side scripting language. that is used to develop Static websites or Dynamic websites or Web applications. PHP stands for Hypertext Pre-processor, that earlier stood for Personal Home Pages. PHP scripts can only be interpreted on a server that has PHP installed. The client computers accessing the PHP scripts require a web browser only. A PHP file contains PHP tags and ends with the extension ".php".
+
+**Laravel**
+Laravel is one of the most popular PHP framework used across the globe to build web application ranging from small to big projects. Laravel is the choice of professional developers because of its performance, features, and scalability. Laravel follows MVC (Model View Controller) structure which makes it easy to learn and rapidly prototype the web applications. Laravel takes the pain out of web application development by providing built-in features like authentication, mail, routing, sessions, and the list goes on.
+
+**Composer**
+Composer is a dependency manager for PHP. Composer will manage the dependencies you require on a project by project basis. This means that Composer will pull in all the required libraries, dependencies and manage them all in one place. This kind of management for dependencies in a project is not a new concept, and in fact, much of Composer is actually inspired from npm from Node.js and Bundler from Ruby.
+
+**MySQL**
+MySQL is a relational database management system based on SQL – Structured Query Language. The application is used for a wide range of purposes, including data warehousing, e-commerce, and logging applications. The most common use for mySQL however, is for the purpose of a web database. It can be used to store anything from a single record of information to an entire inventory of available products for an online store. In association with a scripting language such as PHP or Perl it is possible to create websites which will interact in real-time with a mySQL database to rapidly display categorised and searchable information to a website user.
+
+**XAMPP**
+XAMPP is an open source software developed by Apache friends. XAMPP software package contains Apache distributions for Apache server, MariaDB, PHP, and Perl. And it is basically a local host or a local server. This local server works on your own desktop or laptop computer. The use of XAMPP is to test the clients or your website before uploading it to the remote web server. This XAMPP server software gives you the suitable environment for testing MYSQL, PHP, Apache and Perl projects on the local computer. The full form of XAMPP is X stands for Cross-platform, (A) Apache server, (M) MariaDB, (P) PHP and (P) Perl. The Cross-platform usually means that it can run on any computer with any operating system.
+
+<hr >
+
+## Architectural Design
+
+<hr >
+
+## Summary
 
 eLearning is learning utilizing electronic technologies to access educational curriculum outside of traditional classroom. In most cases, it refers to a course, program or degree delivered completely online. In the early days, some people were concerned that bringing computers into the classroom would remove the human element that many learners benefit from. But technology has developed and are now widely embraced in both the classroom and office. I also use a wealth of interactive design that ensure distance learning is both an engaging and valuable lesson delivery medium.
 
