@@ -50,7 +50,7 @@ This study aims to create;
 
 ### Theoretical Framework
 
-<img src="./Theoretical Framework Diagram.png">(Figure 1.0 Theoretical Framework Diagram)
+<img src="./Theoretical Framework Diagram1.png">(Figure 1.0 Theoretical Framework Diagram)
 
 Figure 1.0 shows the holistic theoretical framework for the development of the Web Based Central Philippine University Senior High School Class Management System. The holistic theoretical framework was constructed upon the three main components of an information system: people, technology, and services provided by technology itself. Guided by these main pillars we revise and identify the users and their interaction with the system. We then present the classification of the technological considerations to these kinds of system, focusing more on the contents type and ways of communication, than on providing a list of the platforms existing.
 
@@ -89,7 +89,7 @@ The following are the features included in the system:
 
 ### Conceptual Framework
 
-<img src="./Conceptual Framework Diagram.png">(Figure 2.0 Conceptual Framework Diagram)
+<img src="./Conceptual Framework Diagram1.png">(Figure 2.0 Conceptual Framework Diagram)
 
 Central Philippine University Senior High School Class Management System. Our group have applied the design of the system according to the conceptual framework.
 A conceptual framework is a diagram that visually represents and interprets the underlying theory, principles, and concepts of a research. It is a visual presentation of variables that interrelate with one another as perceived by the researchers before an actual empirical investigation is done to prove its relationship. This consists of concepts that are placed within a logical and sequential design. It represents the less formal structure and used for studies in which existing theory is inapplicable or insufficient. It is based on specific concepts and propositions, derived from empirical observation and intuition. The purpose of the conceptual framework is to clarify concepts and propose relationships among the concepts in a study. It is used to provide a context for interpreting the study findings, to explain observations, and to encourage theory development that is useful to practice.
