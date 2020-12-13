@@ -251,6 +251,42 @@ XAMPP is an open source software developed by Apache friends. XAMPP software pac
 The system has four intended users, namely the Admin, Students, Teachers, and Parents. Each user must first use the System Login function in order to access their set of features.
 
 ### Sequence Diagram
+<img src="./Sequence Diagram for Admin Functions.png">(Figure 1.4 Sequence Diagram for Admin Functions)
+This figure shows how the admin function works. The Admin must first log in to the system to be able to access all features. The Admin is responsible for creating all the teacher accounts and can modify any existing data related to every subjects and classes.
+
+
+<img src="./Sequence Diagram for Teacher Functions Part 1.png">(Figure 1.5 Sequence Diagram for Teacher Functions Part 1)
+This figure shows the first part of the teacher functions. After successfully logging in, the teachers have the ability to accept or deny student registration. In this part of the teacher function, they can view the section catalog, classmate section, and dashboard. The teachers can update any existing data in the class catalog.
+
+
+<img src="./Sequence Diagram for Teacher Functions Part 2.png">(Figure 1.6 Sequence Diagram for Teacher Functions Part 2)
+This figure shows the second part of the teacher functions. In this part, the teachers can add the lesson plan and upload the resource materials for every subject. This part of the teacher function can create activities and online quizzes for the students and able to take their attendance. Grades that are automatically calculated are also included in this part.
+
+
+<img src="./Sequence Diagram for Student Functions Part 1.png">(Figure 1.7 Sequence Diagram for Student Functions Part 1)
+This figure shows the first part of the student functions. After a successful login, the students may able to view and accept their parent’s registered account. This part of the student function also includes the viewing of the sections, classes and subjects. 
+
+
+<img src="./Sequence Diagram for Student Functions Part 2.png">(Figure 1.8 Sequence Diagram for Student Functions Part 2)
+This figure shows the second part of the student functions. The students can check their dashboard for the ongoing and completed classes they enrolled. This is the part of the student functions where the students can check the lesson plans and resource materials uploaded by their teachers. This part also includes the tasks being handed out to the students – written work, performance task, quarterly assessment.
+
+
+<img src="./Sequence Diagram for Parent Functions.png">(Figure 1.9 Sequence Diagram for Parent Functions)
+This figure shows the functions provided for all parent accounts. After logging in to the system, the parents can view all catalogs related to their child’s status – subjects, attendance, ongoing and completed classes, section, and grades.
+
+### Activity Diagram
+
+### Network Layout
+<img src="./Network Layout.png">(Figure 4.0 Network Layout)
+
+Figure 4.0 illustrates how the network is setup for the system. The system is an application program that can connect to the internet where it can be accessed by the users through it. Users can connect to the internet using a wired connection attached to a switch or directly connected to a router. The router is then connected to the Internet Service Provider (ISP) via DSL/Cable modem. 
+The data submitted in the system will be stored in the database, which is directly connected to the server, which is also connected to the internet. By using the internet, the system can directly send and receive data for each activities made by a user. The users of the system which are the Admin, Student, Teacher, and Parent will need an internet connection to send and receive data from the server.
+
+### Design and Implementation Issues
+The system will mainly serve as an eLearning platform for Senior High School students. It is as user friendly as possible with menus and buttons that are well arranged and easier to navigate. The system is designed to store all subject information of students at the start of the deployment of the system. The system will lessen the workload of the teachers since all the grades will be computed automatically. It also includes a parent account which they can view their child’s grading status from time to time.
+
+Although the system is designed to have convenient features for all intended users, it has its own drawbacks. For instance, an unstable network connection may cause some technical issues and can cause delay of submitting data.
+
 
 ## Summary
 
@@ -270,7 +306,18 @@ The Web Based Central Philippine University Senior High School Class Management 
 4.	Provide the children’s grading status to their parents
 5.	Class Teacher will have a copy of final grades of students
 
-## Appendix
+### Recommendations
+
+The Web Based Central Philippine University Senior High School Class Management System was an effective system for the Senior High School department. The proponents were able to address the needs of the client which is the Senior High School Director. To make the system more effective, we recommend for the department and future researchers the following:
+
+1.	An accounting system linked to the accounting office to save time in waiting in line just to check any remaining balance.
+2.	A mobile web app support system in giving the users notifications through their mobile phones.
+3.	A real-time collaboration of editing documents such as group activities using google spreadsheets or alike.
+4.	A live chat application to be used as an alternative for social media websites.
+5.	Make the system more dynamic especially with the section and class catalog. 
+
+
+# Appendix
 
 <img src="./gantchart.jpg">(gantt chart)
 
