@@ -564,7 +564,22 @@ The Web Based Central Philippine University Senior High School Class Management 
 
 # Appendix
 
-<img src="./gantchart.jpg">(gantt chart)
+### Gantt Chart
+<img src="./Appendix A GanttChart.jpg">(gantt chart)
+
+### Context Data Flow Diagram
+<img src="./Appendix C Context DFD.jpg">(Context DFD)
+
+### Data Flow Diagram
+<img src="./Appendix C Data Flow Diagram.jpg">(Data Flow Diagram)
+
+### Top Down Design
+<img src="./Appendix D Top Down Design.jpg">(Appendix D Top Down Design)
+
+### Entity Relationship Diagram
+<img src="./ERD.png">(Entity Relationship Diagram)
+
+
 
 
 
