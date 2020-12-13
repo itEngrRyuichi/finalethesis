@@ -242,11 +242,15 @@ MySQL is a relational database management system based on SQL – Structured Que
 **XAMPP**
 XAMPP is an open source software developed by Apache friends. XAMPP software package contains Apache distributions for Apache server, MariaDB, PHP, and Perl. And it is basically a local host or a local server. This local server works on your own desktop or laptop computer. The use of XAMPP is to test the clients or your website before uploading it to the remote web server. This XAMPP server software gives you the suitable environment for testing MYSQL, PHP, Apache and Perl projects on the local computer. The full form of XAMPP is X stands for Cross-platform, (A) Apache server, (M) MariaDB, (P) PHP and (P) Perl. The Cross-platform usually means that it can run on any computer with any operating system.
 
-<hr >
 
 ## Architectural Design
 
-<hr >
+### Use Case Diagram
+<img src="./Users of the System.png">(Figure 1.3 Users of the System)
+
+The system has four intended users, namely the Admin, Students, Teachers, and Parents. Each user must first use the System Login function in order to access their set of features.
+
+### Sequence Diagram
 
 ## Summary
 
