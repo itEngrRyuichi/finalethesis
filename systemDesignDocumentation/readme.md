@@ -279,247 +279,247 @@ Table No. 1
 - Table Name: users
 - Primary Key: user_id
 - Foreign Key: section_id, child_id, usertype_id,
-<img src="./Table No 1.png">(Table No.1)
+- <img src="./Table No 1.png">(Table No.1)
 
 Table No. 2
 - Table Name: sections
 - Primary Key: section_id
 - Foreign Key: 
-<img src="./Table No 2.png">(Table No.2)
+- <img src="./Table No 2.png">(Table No.2)
 
 Table No. 3
 - Table Name: usertype
 - Primary Key: usertype_id
 - Foreign Key: 
-<img src="./Table No 3.png">(Table No.3)
+- <img src="./Table No 3.png">(Table No.3)
 
 Table No. 4
 - Table Name: accesscode
 - Primary Key: accesscode_id
 - Foreign Key: 
-<img src="./Table No 4.png">(Table No.4)
+- <img src="./Table No 4.png">(Table No.4)
 
 Table No. 5
 - Table Name: lead To
 - Primary Key: leadTo_id
 - Foreign Key: access_id, lead
-<img src="./Table No 5.png">(Table No.5)
+- <img src="./Table No 5.png">(Table No.5)
 
 Table No. 6
 - Table Name: lead To Classes
 - Primary Key: leadTo_id
 - Foreign Key: access_id, lead
-<img src="./Table No 6.png">(Table No.6)
+- <img src="./Table No 6.png">(Table No.6)
 
 Table No. 7
 - Table Name: resources
 - Primary Key: resources_id
 - Foreign Key: user_id
-<img src="./Table No 7.png">(Table No.7)
+- <img src="./Table No 7.png">(Table No.7)
 
 Table No. 8
 - Table Name: enrollment
 - Primary Key: enrollment_id
 - Foreign Key: user_id, class_id
-<img src="./Table No 8.png">(Table No.8)
+- <img src="./Table No 8.png">(Table No.8)
 
 Table No. 9
 - Table Name: grades
 - Primary Key: grade_id
 - Foreign Key: enrollment_id, quarter_id, myQuaterlyGrade
-<img src="./Table No 9.png">(Table No.9)
+- <img src="./Table No 9.png">(Table No.9)
 
 Table No. 10
 - Table Name: subjecttype
 - Primary Key: subjecttype _id
 - Foreign Key: subjecttype_id
-<img src="./Table No 10.png">(Table No.10)
+- <img src="./Table No 10.png">(Table No.10)
 
 Table No. 11
 - Table Name: subjects
 - Primary Key: subjects _id
 - Foreign Key: subjecttype_id
-<img src="./Table No 11.png">(Table No.11)
+- <img src="./Table No 11.png">(Table No.11)
 
 Table No. 12
 - Table Name: classes
 - Primary Key: classes _id
 - Foreign Key: subject_id, schoolYear_id, semester_id
-<img src="./Table No 12.png">(Table No.12)
+- <img src="./Table No 12.png">(Table No.12)
 
 Table No. 13
 - Table Name: schoolYear
 - Primary Key: schoolYear _id
 - Foreign Key: 
-<img src="./Table No 13.png">(Table No.13)
+- <img src="./Table No 13.png">(Table No.13)
 
 Table No. 14
 - Table Name: semester
 - Primary Key: semester _id
 - Foreign Key: 
-<img src="./Table No 14.png">(Table No.14)
+- <img src="./Table No 14.png">(Table No.14)
 
 Table No. 15
 - Table Name: quarter
 - Primary Key: quarter _id
 - Foreign Key: 
-<img src="./Table No 15.png">(Table No.15)
+- <img src="./Table No 15.png">(Table No.15)
 
 Table No. 16
 - Table Name: gradingCriterias
 - Primary Key: gradingCriteria _id
 - Foreign Key: 
-<img src="./Table No 16.png">(Table No.16)
+- <img src="./Table No 16.png">(Table No.16)
 
 Table No. 17
 - Table Name: components
 - Primary Key: component _id
 - Foreign Key: gradingCriteria _id
-<img src="./Table No 17.png">(Table No.17)
+- <img src="./Table No 17.png">(Table No.17)
 
 Table No. 18
 - Table Name: lessons
 - Primary Key: lesson _id
 - Foreign Key: class _id
-<img src="./Table No 18.png">(Table No.18)
+- <img src="./Table No 18.png">(Table No.18)
 
 Table No. 19
 - Table Name: classResources
 - Primary Key: classResource_id
 - Foreign Key: class _id
-<img src="./Table No 19.png">(Table No.19)
+- <img src="./Table No 19.png">(Table No.19)
 
 Table No. 20
 - Table Name: tasks
 - Primary Key: task_id
 - Foreign Key: class _id, component_id, submission_id
-<img src="./Table No 20.png">(Table No.20)
+- <img src="./Table No 20.png">(Table No.20)
 
 Table No. 21
 - Table Name: attendance
 - Primary Key: attendance_id
 - Foreign Key: class _id, component_id, submission_id
-<img src="./Table No 21.png">(Table No.21)
+- <img src="./Table No 21.png">(Table No.21)
 
 Table No. 22
 - Table Name: attendanceStatus
 - Primary Key: attendanceStatus_id
 - Foreign Key: class _id, component_id, submission_id
-<img src="./Table No 22.png">(Table No.22)
+- <img src="./Table No 22.png">(Table No.22)
 
 Table No. 23
 - Table Name: myTasks
 - Primary Key: myTask_id
 - Foreign Key: user _id, task_id, mySubmission_id
-<img src="./Table No 23.png">(Table No.23)
+- <img src="./Table No 23.png">(Table No.23)
 
 Table No. 24
 - Table Name: myAttendance
 - Primary Key: myAttendance_id
 - Foreign Key: myTask _id
-<img src="./Table No 24.png">(Table No.24)
+- <img src="./Table No 24.png">(Table No.24)
 
 Table No. 25
 - Table Name: myDailyAttendance
 - Primary Key: myDailyAttendance_id
 - Foreign Key: myAttendance _id, attendanceStatus_id
-<img src="./Table No 25.png">(Table No.25)
+- <img src="./Table No 25.png">(Table No.25)
 
 Table No. 26
 - Table Name: myResources
 - Primary Key: myResource_id
 - Foreign Key: myTask _id
-<img src="./Table No 26.png">(Table No.26)
+- <img src="./Table No 26.png">(Table No.26)
 
 Table No. 27
 - Table Name: quizzes
 - Primary Key: quiz_id
 - Foreign Key: subject_id, user_id
-<img src="./Table No 27.png">(Table No.27)
+- <img src="./Table No 27.png">(Table No.27)
 
 Table No. 28
 - Table Name: quizItem
 - Primary Key: quizItem_id
 - Foreign Key: quiz_id, quizType_id
-<img src="./Table No 28.png">(Table No.28)
+- <img src="./Table No 28.png">(Table No.28)
 
 Table No. 29
 - Table Name: quiz_tf
 - Primary Key: quiz_tf_id
 - Foreign Key:
-<img src="./Table No 29.png">(Table No.29)
+- <img src="./Table No 29.png">(Table No.29)
 
 Table No. 30
 - Table Name: quiz_mu
 - Primary Key: quiz_mu_id
 - Foreign Key:
-<img src="./Table No 30.png">(Table No.30)
+- <img src="./Table No 30.png">(Table No.30)
 
 Table No. 31
 - Table Name: quiz_mu_choices
 - Primary Key: quiz_mu_choice_id
 - Foreign Key: quiz_mu_id
-<img src="./Table No 31.png">(Table No.31)
+- <img src="./Table No 31.png">(Table No.31)
 
 Table No. 32
 - Table Name: quiz_or
 - Primary Key: quiz_or_id
 - Foreign Key: 
-<img src="./Table No 32.png">(Table No.32)
+- <img src="./Table No 32.png">(Table No.32)
 
 Table No. 33
 - Table Name: quiz_or_column
 - Primary Key: quiz_or_column_id
 - Foreign Key: quiz_or_id
-<img src="./Table No 33.png">(Table No.33)
+- <img src="./Table No 33.png">(Table No.33)
 
 Table No. 34
 - Table Name: quiz_es
 - Primary Key: quiz_es_id
 - Foreign Key: 
-<img src="./Table No 34.png">(Table No.34)
+- <img src="./Table No 34.png">(Table No.34)
 
 Table No. 35
 - Table Name: quiz_fi
 - Primary Key: quiz_fi_id
 - Foreign Key: 
-<img src="./Table No 35.png">(Table No.35)
+- <img src="./Table No 35.png">(Table No.35)
 
 Table No. 36
 - Table Name: quiz_fi_blank
 - Primary Key: quiz_fi_blank_id
 - Foreign Key: quiz_fi_id
-<img src="./Table No 36.png">(Table No.36)
+- <img src="./Table No 36.png">(Table No.36)
 
 Table No. 37
 - Table Name: quiz_fi_blank_answer
 - Primary Key: quiz_fi_blank_answer_id
 - Foreign Key: quiz_fi_blank_id
-<img src="./Table No 37.png">(Table No.37)
+- <img src="./Table No 37.png">(Table No.37)
 
 Table No. 38
 - Table Name: quiz_ma
 - Primary Key: quiz_ma_id
 - Foreign Key: 
-<img src="./Table No 38.png">(Table No.38)
+- <img src="./Table No 38.png">(Table No.38)
 
 Table No. 39
 - Table Name: quiz_ma_column
 - Primary Key: quiz_ma_column_id
 - Foreign Key: 
-<img src="./Table No 39.png">(Table No.39)
+- <img src="./Table No 39.png">(Table No.39)
 
 Table No. 40
 - Table Name: myQuizzes
 - Primary Key: myQuiz _id
 - Foreign Key: myTask_id
-<img src="./Table No 40.png">(Table No.40)
+- <img src="./Table No 40.png">(Table No.40)
 
 Table No. 41
 - Table Name: myQuiz_es_id
 - Primary Key: myQuiz_es_id
 - Foreign Key: 
-<img src="./Table No 41.png">(Table No.41)
+- <img src="./Table No 41.png">(Table No.41)
 
 ### Network Layout
 <img src="./Network Layout.png">(Figure 4.0 Network Layout)
