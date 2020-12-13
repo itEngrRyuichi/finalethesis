@@ -90,3 +90,69 @@ The purpose of the system is to precisely monitor the performance of the student
 
 **Parents**. It is easy for them to know the performance of their children through this system.
 
+
+### System Overview
+
+The Web Based Central Philippine University Senior High School Class Management System will be used as a tool in learning with the use of electronic technologies. The System is intended to be used for giving online quizzes and exams to the students. Since it can be accessed anytime as long as there is an internet connection, the students can keep track of updates with regards to their studies. Due to e-learning system being cost-effective and save time, it will be beneficial for the teachers in crating quizzes, exams, and lesson plans to be given to the students. It will also be used for the parents in checking the status of their children even when they do not have time to come school for personal reasons.
+
+The management of data in the system will require an authorized user account identification. The accounts will be used by the admin, teachers, students, and parents. Each account will provide different authorization using their desired username and password and each of this account has their own set features to be accessed. The system will be managed by admin account which will be used by the Senior High School Director. The admin account will have all the privileges in viewing, updating and removing existing date if needed.
+
+### System Objectives
+
+1.	To allow the Senior high School Director to manage all data in the system which includes viewing, uploading and removing existing data.
+2.	To allow the teachers to create lesson plans in order for the students to keep track of what to study.
+3.	To allow the teachers to upload learning materials to be downloaded by the students to help them in their learning.
+4.	To allow the teachers to create online quizzes and exams to be given to the students whenever available.
+5.	To allow the parents to check for the current grading status and number of absences of their children
+
+
+### System Functions
+
+The System provides different functionalities that must be performed and delivered.
+
+- Login
+- Generate Access code.
+- View Account Detail
+- Account Lists
+- Accept Accounts
+- Section Catalog
+- Classmate (Section)
+- Subject Catalog
+- Enrollment
+- Dashboard
+- View Class
+- Lessons
+- Tasks
+- Class Online Quiz
+- Class Resource
+- Attendance
+- Grading
+- Private Resource
+- Generate Online Quiz
+
+### Summary
+
+eLearning is learning utilizing electronic technologies to access educational curriculum outside of traditional classroom. In most cases, it refers to a course, program or degree delivered completely online. In the early days, some people were concerned that bringing computers into the classroom would remove the human element that many learners benefit from. But technology has developed and are now widely embraced in both the classroom and office. I also use a wealth of interactive design that ensure distance learning is both an engaging and valuable lesson delivery medium.
+
+The main purpose of this study is to create an eLearning system for the Central Philippine University Senior High School. Once this system is implemented, it will be able to solve the problems encountered in the current system and make positive changes to it. The system contains features that are basically needed by the intended users.
+
+### Conclusion
+
+The Web Based Central Philippine University Senior High School Class Management System was made to be exclusively used by the Senior High School department. The system will be used give students online quizzes and exams, an easier way to keep track of the lesson discussions for the subjects, lessen the hassle in having learning materials for the subjects and providing the parent and update of their children’s attendance and grading status.
+
+The Web Based Central Philippine University Senior High School Class Management System meets all the objectives stated in this project. The system can do the following:
+
+1.	Create Lesson Plans
+2.	Create Online Quizzes and Exams
+3.	Upload and download learning materials
+4.	Provide the children’s grading status to their parents
+5.	Class Teacher will have a copy of final grades of students
+
+## Appendix
+
+<img src="./gantchart.jpg">(gantt chart)
+
+
+
+
+
