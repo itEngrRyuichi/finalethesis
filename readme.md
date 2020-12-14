@@ -4,7 +4,6 @@
 
 - 使用言語 Laravel / PHP / Vue.js / xampp
 
-[開発・設計書などはこちら](./systemDesignDocumentation/readme.md)
 [開発書・設計書などはこちら](./systemDesignDocumentation/readme.md)
 
 [ユースケース図](./systemDesignDocumentation/readme.md#use-case-diagram)
