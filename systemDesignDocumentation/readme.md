@@ -185,12 +185,12 @@ Private Resource. A system function that students use in uploading resource mate
 ### Physical Environment.  
 The tables below are the hardware and software specifications of the system.
 
-### Hardware Specification
+#### Hardware Specification
 <img src="./Server-Side and Client-Side Hardware Specification Table.png">(Table 2.0 Server-Side and Client-Side Hardware Specification Table)
 
 The table shown above is the minimum system requirements for the server and client when running the system.
 
-### Software Specification
+#### Software Specification
 <img src="./Software Specification Table.png">(Table 3.0 Software Specification Table)
 
 **Operating System: Windows 10 Home**
