@@ -1,9 +1,5 @@
 # Web Based Central Philippine University Senior High School Class Management System
 
-### A Capstone Project Presented to The Faculty of Central Philippine University College of Computer Studies
-
-###  In Partial Fulfillment Of the Requirements for the Course in CCS 4100 – CCS Thesis II
-
 By Ryuichi Egoshi
 
 <hr >
