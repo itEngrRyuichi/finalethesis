@@ -12,6 +12,8 @@
 
 [データ構造](./systemDesignDocumentation/readme.md#data-structure)
 
+[ネットワーク構成](./systemDesignDocumentation/readme.md#network-layout)
+
 学年末評価画面（生徒アカウント）
 ![image](./public/images/screen/3e1d6783-9dcd-4e6a-bda2-a7d07ba26467.png "image")
 
