@@ -1,4 +1,9 @@
 {
+    "name": "CPUSHSElearningSystem",
+    "version": "1.0.0",
+    "description": "Online based Central Philippine University Senior Highschool Class Management System",
+    "author": "Ryuichi Egoshi <it.engr.ryuichi@gmail.com>",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "dev": "npm run development",
